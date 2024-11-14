@@ -1,0 +1,56 @@
+/* Estilo básico do body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #282c34;
+    color: #ffffff;
+}
+/* Caixa da calculadora */
+.calculator {
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3a3f47;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.calculator h2 {
+    margin-bottom: 20px;
+    color: #61dafb;
+    font-weight: normal;
+}
+/* Estilo dos campos de entrada, seleção e botão com largura fixa */
+.calculator input[type="number"],
+.calculator select,
+.calculator button {
+    width: 100%; /* Largura total do contêiner */
+    max-width: 300px; /* Define um tamanho máximo para todos os campos */
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* Estilos adicionais para campo de número e botão */
+.calculator input[type="number"] {
+    background-color: #2b3036;
+    color: #ffffff;
+}
+.calculator select {
+    background-color: #2b3036;
+    color: #ffffff;
+}
+.calculator button {
+    background-color: #61dafb;
+    color: #282c34;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.calculator button:hover {
+   
